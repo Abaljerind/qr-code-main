@@ -1,0 +1,18 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  margin: auto;
+}
+
+.figure-img {
+  border: 10px solid white;
+}
+
+.figure-caption {
+  color: hsl(218, 44%, 22%);
+}
+
+.figure-caption.paragraf {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
