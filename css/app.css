@@ -1,18 +1,31 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-  margin: auto;
 }
 
-.figure-img {
+.figure {
+  margin: 90px;
+  box-sizing: border-box;
   border: 10px solid white;
 }
 
-.figure-caption {
+#figcaption1 {
   color: hsl(218, 44%, 22%);
+  font-size: 25px;
 }
 
 .figure-caption.paragraf {
   color: hsl(220, 15%, 55%);
   font-size: 15px;
+}
+
+.figure-caption.paragraf span {
+  white-space: pre;
+}
+/* white-space: pre; digunakan dengan span sebagai penanda untuk teks yang ingin dibuat menjadi beberapa baris. */
+
+@media (min-width: 375px) {
+  .figure {
+    width: 350px;
+  }
 }
