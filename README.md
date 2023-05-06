@@ -35,9 +35,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-white-space: pre; digunakan dengan span sebagai penanda untuk teks yang ingin dibuat menjadi beberapa baris.
+white-space: pre; used with span as a marker for the text you want to span across multiple lines.
 
-@media (min-width: 375px) { ... } : digunakan untuk menentukan lebar minimal dari layar browser yang digunakan untuk memberikan efek css tertentu pada lebar yang sudah ditentukan.
+@media (min-width: 375px) { ... } : used to determine the minimum width of the browser screen used to provide certain css effects at a predetermined width.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
